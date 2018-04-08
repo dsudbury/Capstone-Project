@@ -182,3 +182,60 @@ nav span a {
 .course div {
   padding: 0 16px;
 }
+
+/* EXHIBIT (VIDEO) */
+
+#exhibits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0 24px 24px;
+}
+
+#exhibits .column-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+#exhibits .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 24px;
+}
+
+#exhibits .right {
+  min-width: 423px;
+}
+
+video {
+  max-width: 100%;
+}
+
+.exhibit {
+  display: flex;
+  padding: 16px 0 16px 16px;
+}
+
+#exhibits .right .pic-wrap {
+  max-width: 35%;
+  margin-right: 16px;
+}
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  padding: 16px 24px;
+  border-top: 1px solid #d8d8d8;
+  font-size: .75em;
+}
+
+.copyright {
+  margin-right: auto;
+}
+
+.footlink {
+  margin-left: 16px;
+}
