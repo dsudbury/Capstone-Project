@@ -1,0 +1,68 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+/* UNIVERSAL */
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #4a4a4a;
+  font-size: .9em;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 32px 0;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+}
+
+p {
+  line-height: 1.75;
+  margin-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap img {
+  max-width: 100%;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  height: 64px;
+  align-items: center;
+  padding: 0 24px;
+  line-height: 1;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+nav span {
+  margin-left: 16px;
+}
+
+nav span a {
+  color: #4a4a4a;
+}
